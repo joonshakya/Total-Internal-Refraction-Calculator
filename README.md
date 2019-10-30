@@ -1,1 +1,1 @@
-# Refraction
+# Refraction Calculator
