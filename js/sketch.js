@@ -30,8 +30,8 @@ function setup() {
     rightTxtPos = txtStd * 13;
     cirDiam = width * 0.25 + txtStd * 4.5;
     cirRadi = cirDiam / 2;
-    rIndexSlider.position(width / 2.1, txtStd * 9.5);
-    incidentSlider.position(width / 2.1, txtStd * 15);
+    rIndexSlider.position(width / 1.8, txtStd * 9.5);
+    incidentSlider.position(width / 1.8, txtStd * 15);
   } else {
     txtStd = width / 20;
     landS = false;
@@ -107,7 +107,7 @@ function draw() {
 
   push();
   if (landS) {
-    translate(width / 2.1, height / 2.8);
+    translate(width / 1.8, height / 2.8);
   } else {
     translate(width / 10, height / 1.7);
   }
